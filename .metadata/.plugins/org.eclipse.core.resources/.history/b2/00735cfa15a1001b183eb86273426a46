@@ -1,0 +1,36 @@
+package com.cts.offerings.exception;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+public class GlobalExceptionHandler {
+
+	/**
+	 * @ExceptionHandler annotation is used for handling exceptions in specific
+	 *                   handler classes and/or handler methods
+	 * 
+	 *                   to handle InsurerDetailNotFoundException
+	 */
+	@ExceptionHandler(InvalidTokenException.class)
+	public ResponseEntity<String> invalidTokenExceptionHandler(InvalidTokenException exception) {
+
+		return new ResponseEntity<>(exception.getMessage(), HttpStatus.FORBIDDEN);
+
+	}
+
+	/**
+	 * @ExceptionHandler annotation is used for handling exceptions in specific
+	 *                   handler classes and/or handler methods to handle
+	 *                   PackageDetailNotFoundException
+	 */
+	@ExceptionHandler(PackageDetailNotFoundException.class)
+	public ResponseEntity<String> packageDetailNotFoundException(PackageDetailNotFoundException exception) {
+
+		return new ResponseEntity<>(exception.getMessage(), HttpStatus.NO_CONTENT);
+
+	}
+
+}

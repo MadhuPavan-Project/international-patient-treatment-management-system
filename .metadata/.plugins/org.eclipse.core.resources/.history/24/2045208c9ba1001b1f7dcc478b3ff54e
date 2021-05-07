@@ -1,0 +1,8 @@
+package com.cognizant.auth.exception;
+
+public class ErrorMessage {
+
+	public ErrorMessage() {
+		super();
+	}
+}

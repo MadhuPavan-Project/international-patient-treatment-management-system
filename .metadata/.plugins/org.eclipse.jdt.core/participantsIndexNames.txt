@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+C:\Users\siva\Desktop\FINAL_IPTMS_PROJECT\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3650733643.index
+\ip-treatment-web-portal\src\main\java

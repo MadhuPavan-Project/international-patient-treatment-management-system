@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="IPTreatmentOfferings"/>
+<aop-project name="InsuranceClaimMicroservice"/>
+<aop-project name="ip_treatment_microservice"/>
+<aop-project name="ip-treatment-web-portal"/>
+<aop-project name="AuthorizationMicroservice"/>
+</aop-reference-model>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.web.bind.ServletRequestBindingException"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseStatus"/>
+<fullyQualifiedTypeName name="feign.FeignException"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="java.security.SignatureException"/>
+<fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+<fullyQualifiedTypeName name="io.jsonwebtoken.SignatureException"/>
+<fullyQualifiedTypeName name="org.springframework.security.web.access.AccessDeniedHandler"/>
+<fullyQualifiedTypeName name="feign.FeignException.Forbidden"/>
+<fullyQualifiedTypeName name="javassist.NotFoundException"/>
+<fullyQualifiedTypeName name="org.springframework.data.crossstore.ChangeSetPersister.NotFoundException"/>
+</qualifiedTypeNameHistroy>
